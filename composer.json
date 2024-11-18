@@ -1,0 +1,22 @@
+{
+    "name": "Melywin/my-cart-library",
+    "description": "A shopping cart library for CodeIgniter 4.5.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Melywin Bage",
+            "email": "melywin@f9webs.com",
+            "homepage": "https://github.com/Melywin"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "codeigniter4/framework": "^4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyCartLibrary\\": "src/"
+        }
+    }
+}
